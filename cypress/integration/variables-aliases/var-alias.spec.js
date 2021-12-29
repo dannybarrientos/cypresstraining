@@ -62,8 +62,8 @@ describe('Variables & Aliases DEMO', () => {
     });
 
     it('Sharing Context',  function() {
-        cy.log(this.invoqueText)
-        cy.log(this.wrapText)
+        cy.log("Estamos compartiendo el invoke"+ this.invoqueText)
+        cy.log("Estamos compartiendo el wrap"+this.wrapText)
         
     });
     
