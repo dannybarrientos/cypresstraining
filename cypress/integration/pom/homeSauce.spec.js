@@ -1,7 +1,7 @@
 import homeSaucePage from '../../pages/saucedemo/homeSaucePage'
 import inventoryPage from '../../pages/saucedemo/inventoryPage'
 
-describe.skip('POM Implementation', () => {
+describe('POM Implementation', () => {
     
     beforeEach(() => {
         cy.visit('https://www.saucedemo.com/')  
